@@ -2651,30 +2651,38 @@ function OwlAppPage() {
 function App() {
   const path = window.location.pathname;
 
+  // GitHub Pages serves this app under /sam-daniel-john-portfolio/.
+  // Remove that base path before matching the React project routes.
+  const base = "/sam-daniel-john-portfolio";
+
+  const projectPath = path.startsWith(base)
+    ? path.slice(base.length)
+    : path;
+
   if (
-    path === "/project/behind-the-digital-trail" ||
-    path === "/project/behind-the-digital-trail/"
+    projectPath === "/project/behind-the-digital-trail" ||
+    projectPath === "/project/behind-the-digital-trail/"
   ) {
     return <BehindDigitalTrailPage />;
   }
 
   if (
-    path === "/project/user-centered-research" ||
-    path === "/project/user-centered-research/"
+    projectPath === "/project/user-centered-research" ||
+    projectPath === "/project/user-centered-research/"
   ) {
     return <UserCenteredResearchPage />;
   }
 
   if (
-    path === "/project/security-warnings" ||
-    path === "/project/security-warnings/"
+    projectPath === "/project/security-warnings" ||
+    projectPath === "/project/security-warnings/"
   ) {
     return <SecurityWarningsPage />;
   }
 
   if (
-    path === "/project/owl-app" ||
-    path === "/project/owl-app/"
+    projectPath === "/project/owl-app" ||
+    projectPath === "/project/owl-app/"
   ) {
     return <OwlAppPage />;
   }
