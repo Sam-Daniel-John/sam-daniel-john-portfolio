@@ -369,7 +369,7 @@ function HomePage() {
 
           <div className="projects-grid">
 
-            <a href="/project/behind-the-digital-trail" className="project-card">
+            <a href="/sam-daniel-john-portfolio/project/behind-the-digital-trail" className="project-card">
               <div className="project-card-top">
                 <span className="project-number">01</span>
                 <span className="project-arrow">↗</span>
@@ -385,7 +385,7 @@ function HomePage() {
               <div className="project-click">CLICK FOR MORE ↗</div>
             </a>
 
-            <a href="/project/user-centered-research" className="project-card">
+            <a href="/sam-daniel-john-portfolio/project/user-centered-research" className="project-card">
               <div className="project-card-top">
                 <span className="project-number">02</span>
                 <span className="project-arrow">↗</span>
@@ -411,7 +411,7 @@ function HomePage() {
               <div className="project-click">CLICK FOR MORE ↗</div>
             </a>
 
-            <a href="/project/security-warnings" className="project-card">
+            <a href="/sam-daniel-john-portfolio/project/security-warnings" className="project-card">
               <div className="project-card-top">
                 <span className="project-number">03</span>
                 <span className="project-arrow">↗</span>
@@ -436,7 +436,7 @@ function HomePage() {
               <div className="project-click">CLICK FOR MORE ↗</div>
             </a>
 
-            <a href="/project/owl-app" className="project-card">
+            <a href="/sam-daniel-john-portfolio/project/owl-app" className="project-card">
               <div className="project-card-top">
                 <span className="project-number">04</span>
                 <span className="project-arrow">↗</span>
