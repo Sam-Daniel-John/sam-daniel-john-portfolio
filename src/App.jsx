@@ -219,7 +219,7 @@ function HomePage() {
             </h2>
 
             <p>
-              I’m a Cybersecurity Master’s student who looks at security
+              I’m Sam Daniel John a Cybersecurity Master’s student who looks at security
               from two angles: the system and the human behind it. While
               I’m deeply interested in the defensive side of security,
               detecting, analyzing, and responding to real-world attacks,
