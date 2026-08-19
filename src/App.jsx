@@ -1782,7 +1782,7 @@ function UserCenteredResearchPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/user-research.png"
+                src="/sam-daniel-john-portfolio/images/user-research.png"
                 alt="Participant profiles and structured interview responses"
               />
               <span>USER RESEARCH — PARTICIPANT PROFILES & RESPONSES</span>
@@ -1828,7 +1828,7 @@ function UserCenteredResearchPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/empathy-map.png"
+                src="/sam-daniel-john-portfolio/images/empathy-map.png"
                 alt="Empathy map showing learner pain points, gains and How Might We questions"
               />
               <span>EMPATHY MAP — PAINS, GAINS & HOW MIGHT WE QUESTIONS</span>
@@ -1873,7 +1873,7 @@ function UserCenteredResearchPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/affinity-diagram.png"
+                src="/sam-daniel-john-portfolio/images/affinity-diagram.png"
                 alt="Affinity diagram showing grouped interview observations and themes"
               />
               <span>AFFINITY DIAGRAM — RESEARCH THEMES & PATTERNS</span>
@@ -2149,7 +2149,7 @@ function SecurityWarningsPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/security-warning-survey-01.png"
+                src="/sam-daniel-john-portfolio/images/security-warning-survey-01.png"
                 alt="Online survey showing participant questions and a microphone permission prompt"
               />
               <span>SURVEY — PARTICIPANT QUESTIONS & PERMISSION PROMPT</span>
@@ -2157,7 +2157,7 @@ function SecurityWarningsPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/security-warning-survey-02.png"
+                src="/sam-daniel-john-portfolio/images/security-warning-survey-02.png"
                 alt="Online survey showing additional security warning scenarios"
               />
               <span>SURVEY — SECURITY WARNING SCENARIOS</span>
@@ -2490,7 +2490,7 @@ function OwlAppPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/owl-storyboard.png"
+                src="/sam-daniel-john-portfolio/images/owl-storyboard.png"
                 alt="Storyboard showing student interactions with the Owl sustainability platform"
               />
               <span>STORYBOARD — EXPLORING USER JOURNEYS</span>
@@ -2511,7 +2511,7 @@ function OwlAppPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/owl-low-fidelity.png"
+                src="/sam-daniel-john-portfolio/images/owl-low-fidelity.png"
                 alt="Hand-drawn low-fidelity Owl App mobile interface"
               />
               <span>LOW-FIDELITY — EARLY MOBILE INTERFACE EXPLORATION</span>
@@ -2535,7 +2535,7 @@ function OwlAppPage() {
                 playsInline
                 preload="metadata"
               >
-                <source src="/videos/owl-app-demo.mp4" type="video/mp4" />
+                <source src="/sam-daniel-john-portfolio/videos/owl-app-demo.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
               <span>HIGH-FIDELITY PROTOTYPE — INTERACTION DEMO</span>
@@ -2604,7 +2604,7 @@ function OwlAppPage() {
 
             <div className="research-image-block">
               <img
-                src="/images/owl-high-fidelity.png"
+                src="/sam-daniel-john-portfolio/images/owl-high-fidelity.png"
                 alt="Owl App interface prototype"
               />
               <span>HIGH-FIDELITY — OWL APP CONCEPT</span>
