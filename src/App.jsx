@@ -219,7 +219,7 @@ function HomePage() {
             </h2>
 
             <p>
-              I’m Sam Daniel John a Cybersecurity Master’s student who looks at security
+              I’m Sam Daniel John, a Cybersecurity Master’s student who looks at security
               from two angles: the system and the human behind it. While
               I’m deeply interested in the defensive side of security,
               detecting, analyzing, and responding to real-world attacks,
@@ -617,16 +617,16 @@ function BehindDigitalTrailPage() {
       </header>
 
       <nav className="site-index">
-        <a href="/#about">ABOUT</a>
-        <a href="/#contact">CONTACT</a>
-        <a href="/#journey">JOURNEY</a>
-        <a href="/#projects">PROJECTS</a>
+        <a href="/sam-daniel-john-portfolio/#about">ABOUT</a>
+        <a href="/sam-daniel-john-portfolio/#contact">CONTACT</a>
+        <a href="/sam-daniel-john-portfolio/#journey">JOURNEY</a>
+        <a href="/sam-daniel-john-portfolio/#projects">PROJECTS</a>
       </nav>
 
       <main>
         <article className="project-detail">
 
-          <a href="/#projects" className="back-link">
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link">
             ← BACK TO PROJECTS
           </a>
 
@@ -1673,7 +1673,7 @@ function BehindDigitalTrailPage() {
 
           </section>
 
-          <a href="/#projects" className="back-link bottom-back">
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link bottom-back">
             ← BACK TO PROJECTS
           </a>
 
@@ -1714,15 +1714,15 @@ function UserCenteredResearchPage() {
       </header>
 
       <nav className="site-index">
-        <a href="/#about">ABOUT</a>
-        <a href="/#contact">CONTACT</a>
-        <a href="/#journey">JOURNEY</a>
-        <a href="/#projects">PROJECTS</a>
+        <a href="/sam-daniel-john-portfolio/#about">ABOUT</a>
+        <a href="/sam-daniel-john-portfolio/#contact">CONTACT</a>
+        <a href="/sam-daniel-john-portfolio/#journey">JOURNEY</a>
+        <a href="/sam-daniel-john-portfolio/#projects">PROJECTS</a>
       </nav>
 
       <main>
         <article className="project-detail">
-          <a href="/#projects" className="back-link">← BACK TO PROJECTS</a>
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link">← BACK TO PROJECTS</a>
 
           <div className="project-detail-category">HUMAN-CENTERED SECURITY</div>
 
@@ -2012,7 +2012,7 @@ function UserCenteredResearchPage() {
             </p>
           </section>
 
-          <a href="/#projects" className="back-link bottom-back">
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link bottom-back">
             ← BACK TO PROJECTS
           </a>
         </article>
@@ -2048,15 +2048,15 @@ function SecurityWarningsPage() {
       </header>
 
       <nav className="site-index">
-        <a href="/#about">ABOUT</a>
-        <a href="/#contact">CONTACT</a>
-        <a href="/#journey">JOURNEY</a>
-        <a href="/#projects">PROJECTS</a>
+        <a href="/sam-daniel-john-portfolio/#about">ABOUT</a>
+        <a href="/sam-daniel-john-portfolio/#contact">CONTACT</a>
+        <a href="/sam-daniel-john-portfolio/#journey">JOURNEY</a>
+        <a href="/sam-daniel-john-portfolio/#projects">PROJECTS</a>
       </nav>
 
       <main>
         <article className="project-detail">
-          <a href="/#projects" className="back-link">← BACK TO PROJECTS</a>
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link">← BACK TO PROJECTS</a>
 
           <div className="project-detail-category">USABLE SECURITY</div>
 
@@ -2078,7 +2078,7 @@ function SecurityWarningsPage() {
 
           <section className="detail-section">
             <div className="detail-kicker">01 / INTRODUCTION</div>
-            <h2>Are warnings communicating risk — or just getting in the way?</h2>
+            <h2>Are warnings communicating risk, or just getting in the way?</h2>
 
             <p>
               Security warnings and permission prompts are one of the primary
@@ -2306,7 +2306,7 @@ function SecurityWarningsPage() {
             </p>
           </section>
 
-          <a href="/#projects" className="back-link bottom-back">
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link bottom-back">
             ← BACK TO PROJECTS
           </a>
         </article>
@@ -2342,15 +2342,15 @@ function OwlAppPage() {
       </header>
 
       <nav className="site-index">
-        <a href="/#about">ABOUT</a>
-        <a href="/#contact">CONTACT</a>
-        <a href="/#journey">JOURNEY</a>
-        <a href="/#projects">PROJECTS</a>
+        <a href="/sam-daniel-john-portfolio/#about">ABOUT</a>
+        <a href="/sam-daniel-john-portfolio/#contact">CONTACT</a>
+        <a href="/sam-daniel-john-portfolio/#journey">JOURNEY</a>
+        <a href="/sam-daniel-john-portfolio/#projects">PROJECTS</a>
       </nav>
 
       <main>
         <article className="project-detail">
-          <a href="/#projects" className="back-link">← BACK TO PROJECTS</a>
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link">← BACK TO PROJECTS</a>
 
           <div className="project-detail-category">HUMAN-CENTERED DESIGN</div>
 
@@ -2629,7 +2629,7 @@ function OwlAppPage() {
             </p>
           </section>
 
-          <a href="/#projects" className="back-link bottom-back">
+          <a href="/sam-daniel-john-portfolio/#projects" className="back-link bottom-back">
             ← BACK TO PROJECTS
           </a>
         </article>
@@ -2651,8 +2651,6 @@ function OwlAppPage() {
 function App() {
   const path = window.location.pathname;
 
-  // GitHub Pages serves this app under /sam-daniel-john-portfolio/.
-  // Remove that base path before matching the React project routes.
   const base = "/sam-daniel-john-portfolio";
 
   const projectPath = path.startsWith(base)
